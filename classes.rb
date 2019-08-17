@@ -1,4 +1,4 @@
-class Carro
+class Carro2
 
   attr_accessor :marca, :modelo
   # attr_reader :marca, :modelo
@@ -22,11 +22,11 @@ class Carro
 
 end
 
-novo_carro = Carro.new
+novo_carro = Carro2.new
 # novo_carro.define_marca("Ford")
 # puts "A marca do carro é #{novo_carro.exibe_marca}"
 
-carro = Carro.new
+carro = Carro2.new
 carro.marca = "Ford"
 carro.modelo = "Focus"
 puts "Marca: " + carro.marca
