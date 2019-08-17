@@ -17,7 +17,9 @@ else
   puts "a é maior que b"
 end
 
-if a > b then puts "MAIOR" else puts "MENOR" end
+tem_fondue = true
+
+if tem_fondue then puts "MAIOR" else puts "MENOR" end
 
 puts "a é maior que b" if a > b
 puts "a é maior que b" if a < b
