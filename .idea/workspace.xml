@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7a926e-916c-4a4f-b632-e787bdf4af1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/constantes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambdas.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modulos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fabrica/carro.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fabrica/carro_importado.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ruby-para-iniciantes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ruby-para-iniciantes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/blocks.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +33,11 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1PTbWeJGps4IfejItVozIXDvnoN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/.rvm/rubies/ruby-2.6.3/bin/ruby" />
@@ -51,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.modulos">
+  <component name="RunManager" selected="Ruby.init">
     <configuration name="blocks" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-para-iniciantes" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -85,6 +90,24 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/constantes.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-para-iniciantes" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/init.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -124,31 +147,13 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="parametros" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="ruby-para-iniciantes" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/parametros.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.init" />
         <item itemvalue="Ruby.modulos" />
         <item itemvalue="Ruby.constantes" />
         <item itemvalue="Ruby.lambdas" />
         <item itemvalue="Ruby.blocks" />
-        <item itemvalue="Ruby.parametros" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +170,7 @@
       <workItem from="1565954164369" duration="10740000" />
       <workItem from="1566059868699" duration="2391000" />
       <workItem from="1566243264424" duration="3037000" />
-      <workItem from="1566303271049" duration="5141000" />
+      <workItem from="1566303271049" duration="8309000" />
     </task>
     <servers />
   </component>
@@ -184,6 +189,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ruby_para_iniciantes@hash.rcov" NAME="hash Coverage Results" MODIFIED="1566061828089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-para-iniciantes" />
@@ -208,5 +216,6 @@
     <SUITE FILE_PATH="coverage/ruby_para_iniciantes@range.rcov" NAME="range Coverage Results" MODIFIED="1566062332017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-para-iniciantes" />
     <SUITE FILE_PATH="coverage/ruby_para_iniciantes@heranca.rcov" NAME="heranca Coverage Results" MODIFIED="1565956292318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-para-iniciantes" />
     <SUITE FILE_PATH="coverage/ruby_para_iniciantes@ifElse.rcov" NAME="ifElse Coverage Results" MODIFIED="1565967562025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-para-iniciantes" />
+    <SUITE FILE_PATH="coverage/ruby_iniciante@init.rcov" NAME="init Coverage Results" MODIFIED="1566315802712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-para-iniciantes" />
   </component>
 </project>
